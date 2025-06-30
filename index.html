@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rofiyan Rozikin - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="gradient-text">Rofiyan</span>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">Halo, Saya Rofiyan Rozikin</h1>
+            <p class="hero-description">
+              Saya adalah seorang mahasiswa UMRAH tingkat akhir yang berasal
+              dari Tanjungpinang. Saya juga mempunyai kemampuan berkomunikasi
+              secara lancar serta bekerja secara profesional. Memiliki
+              pengalaman bekerja dengan beretika.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary">Hubungi Saya</a>
+              <a href="#about" class="btn btn-secondary"
+                >Pelajari Lebih Lanjut</a
+              >
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="profile-circle">
+              <img
+                src="profile.jpg"
+                alt="Foto Profil Rofiyan Rozikin"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">Tentang Saya</h2>
+
+        <!-- Education -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-graduation-cap"></i>
+            <h3>Pendidikan</h3>
+          </div>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-year">2007 - 2013</div>
+              <div class="timeline-content">
+                <h4>SDN 004 Bukit Bestari</h4>
+                <p>Sekolah Dasar</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2013 - 2016</div>
+              <div class="timeline-content">
+                <h4>SMPN 4 Tanjungpinang</h4>
+                <p>Sekolah Menengah Pertama</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-year">2016 - 2019</div>
+              <div class="timeline-content">
+                <h4>SMAN 4 Tanjungpinang</h4>
+                <p>Sekolah Menengah Atas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="card">
+          <div class="card-header">
+            <i class="fas fa-briefcase"></i>
+            <h3>Pengalaman Kerja</h3>
+          </div>
+          <div class="experience-grid">
+            <div class="experience-item">
+              <div class="experience-icon">
+                <i class="fas fa-tint"></i>
+              </div>
+              <div class="experience-content">
+                <h4>Duta Water</h4>
+                <p class="job-title">Helper</p>
+                <p class="job-description">
+                  Membantu dalam operasional harian dan melayani pelanggan
+                  dengan profesional.
+                </p>
+              </div>
+            </div>
+            <div class="experience-item">
+              <div class="experience-icon">
+                <i class="fas fa-car"></i>
+              </div>
+              <div class="experience-content">
+                <h4>And Rent Car</h4>
+                <p class="job-title">Driver</p>
+                <p class="job-description">
+                  Menyediakan layanan transportasi yang aman dan nyaman untuk
+                  pelanggan.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Nomor Telepon</h4>
+                <p>085664032781</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>rofian12@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Alamat</h4>
+                <p>Jalan Pemuda Gang Asoka No 18</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nama Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email Anda"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Pesan Anda"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Rofiyan Rozikin. All rights reserved.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
