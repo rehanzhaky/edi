@@ -216,6 +216,37 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// Article card animations on scroll
+document.addEventListener("DOMContentLoaded", () => {
+  const articleCards = document.querySelectorAll(".article-card");
+
+  articleCards.forEach((card, index) => {
+    card.style.opacity = "0";
+    card.style.transform = "translateY(30px)";
+    card.style.transition = "opacity 0.6s ease, transform 0.6s ease";
+    card.style.animationDelay = `${index * 0.1}s`;
+
+    observer.observe(card);
+  });
+});
+
+// Add smooth hover effect for article images
+document.addEventListener("DOMContentLoaded", () => {
+  const articleCards = document.querySelectorAll(".article-card");
+
+  articleCards.forEach((card) => {
+    const img = card.querySelector(".article-img");
+
+    card.addEventListener("mouseenter", () => {
+      img.style.transform = "scale(1.05)";
+    });
+
+    card.addEventListener("mouseleave", () => {
+      img.style.transform = "scale(1)";
+    });
+  });
+});
+
 // Typing animation for hero title
 function typeWriter(element, text, speed = 100) {
   let i = 0;
